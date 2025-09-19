@@ -2,5 +2,10 @@
 {
     public class RefreshRequest
     {
+        public string Refresh_Token
+        {
+            get; set;
+        }
+
     }
 }
